@@ -1,4 +1,6 @@
 function binaryConvert(num){
+  if(num === 0) return '0';
+  
   let power = 1;
   let binary = 0;
 
@@ -9,7 +11,7 @@ function binaryConvert(num){
     power *= 10;
   }
 
-  return binary;
+  return binary.toString();
 }
 
 binaryConvert(5);
