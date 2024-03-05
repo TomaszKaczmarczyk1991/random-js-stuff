@@ -1,3 +1,5 @@
+// https://en.m.wikipedia.org/wiki/Binary_number 
+
 function binaryConvert(num){
   if(num === 0) return '0';
   
