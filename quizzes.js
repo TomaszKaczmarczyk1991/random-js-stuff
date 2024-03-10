@@ -12,3 +12,15 @@ let x = true === []; // boolean, false
 let y = true === ![]; // object, false
 
 console.log(x + y); // false + false = 0
+
+
+// 10.03.2024
+// 1)
+let x = +'5';
+let y = -'5';
+
+// + and - converts string to number
+
+console.log(x + y); // 0
+
+
