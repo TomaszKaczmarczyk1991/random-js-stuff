@@ -1,4 +1,5 @@
 // 09.03.2024
+
 // 1) 
 for(let i = 1; i < 5; i++){
     if(i === 3) continue;
@@ -15,6 +16,7 @@ console.log(x + y); // false + false = 0
 
 
 // 10.03.2024
+
 // 1)
 let x = +'5';
 let y = -'5';
@@ -23,4 +25,8 @@ let y = -'5';
 
 console.log(x + y); // 0
 
+// 2)
+new Set([1,1,2,3,4,4,4]).size; // 4
+
+// Set removes duplicates
 
