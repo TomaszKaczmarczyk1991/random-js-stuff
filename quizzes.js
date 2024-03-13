@@ -32,7 +32,13 @@ new Set([1,1,2,3,4,4,4]).size; // 4
 
 // 13.03.2024
 
-1) 
+// 1) 
 console.log('cat' && 'dog'); // dog
 
 // with && operator, it returns the last value if both values are truthy
+
+// 2)
+let x = [1,2,3] + [4,5,6];
+
+console.log(x); // 1,2,34,5,6
+// arrays turns into strings due to + operator
