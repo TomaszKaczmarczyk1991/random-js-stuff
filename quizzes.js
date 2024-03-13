@@ -30,3 +30,9 @@ new Set([1,1,2,3,4,4,4]).size; // 4
 
 // Set removes duplicates
 
+// 13.03.2024
+
+1) 
+console.log('cat' && 'dog'); // dog
+
+// with && operator, it returns the last value if both values are truthy
