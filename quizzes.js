@@ -1,5 +1,4 @@
 // 09.03.2024
-
 // 1) 
 for(let i = 1; i < 5; i++){
     if(i === 3) continue;
@@ -16,7 +15,6 @@ console.log(x + y); // false + false = 0
 
 
 // 10.03.2024
-
 // 1)
 let x = +'5';
 let y = -'5';
@@ -30,8 +28,8 @@ new Set([1,1,2,3,4,4,4]).size; // 4
 
 // Set removes duplicates
 
-// 13.03.2024
 
+// 13.03.2024
 // 1) 
 console.log('cat' && 'dog'); // dog
 
@@ -42,3 +40,11 @@ let x = [1,2,3] + [4,5,6];
 
 console.log(x); // 1,2,34,5,6
 // arrays turns into strings due to + operator
+
+
+// 14.03.2024
+// 1)
+let x = 3 > 2 > 1;
+
+console.log(x); // false
+// 3 > 2 evaluates to true and true is coerced to 1. so 1 > 1 is false.
