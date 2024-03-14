@@ -48,3 +48,10 @@ let x = 3 > 2 > 1;
 
 console.log(x); // false
 // 3 > 2 evaluates to true and true is coerced to 1. so 1 > 1 is false.
+
+// 2)
+let a = 1;
+a = a + (a += 2);
+
+console.log(a); // 4
+ 
