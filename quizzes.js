@@ -54,4 +54,16 @@ let a = 1;
 a = a + (a += 2);
 
 console.log(a); // 4
- 
+
+
+// 15.03.2024
+// 1)
+let x = 0;
+let y = [];
+console.log(typeof x)
+
+console.log(x == y) //true
+// type coercion so 0 == 0
+
+console.log(x === y) // false
+// without type coercion, it checks for strict equality
