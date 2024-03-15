@@ -67,3 +67,10 @@ console.log(x == y) //true
 
 console.log(x === y) // false
 // without type coercion, it checks for strict equality
+
+
+// 2)
+let x = [3] * [2];
+
+console.log(x); // 6
+// * operator converts array into number data type 
