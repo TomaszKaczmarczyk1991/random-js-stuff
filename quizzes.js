@@ -74,3 +74,10 @@ let x = [3] * [2];
 
 console.log(x); // 6
 // * operator converts array into number data type 
+
+
+// 17.03.2023
+// 1) 
+console.log(typeof null === "object"); // true
+console.log(typeof null === "null"); // false
+ 
