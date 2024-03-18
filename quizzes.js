@@ -77,7 +77,11 @@ console.log(x); // 6
 
 
 // 17.03.2023
-// 1) 
+
 console.log(typeof null === "object"); // true
 console.log(typeof null === "null"); // false
  
+// 18.03.2023
+
+console.log("1" - - "1"); // 2
+// first - is substraction operator and it converts both operands to numbers. So it's 1 - (-1) = 2
