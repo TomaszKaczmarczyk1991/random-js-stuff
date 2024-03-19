@@ -76,12 +76,19 @@ console.log(x); // 6
 // * operator converts array into number data type 
 
 
-// 17.03.2023
+// 17.03.2024
 
 console.log(typeof null === "object"); // true
 console.log(typeof null === "null"); // false
  
-// 18.03.2023
+// 18.03.2024
 
 console.log("1" - - "1"); // 2
 // first - is substraction operator and it converts both operands to numbers. So it's 1 - (-1) = 2
+
+// 19.03.2024
+let a = {name: "Tomek"};
+let b = {name: "Tomek"};
+
+
+console.log(a === b); // false
