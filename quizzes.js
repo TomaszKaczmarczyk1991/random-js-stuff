@@ -92,3 +92,7 @@ let b = {name: "Tomek"};
 
 
 console.log(a === b); // false
+
+// 27.03.2024
+
+[2,3,4].splice(1,1) // [3] 
