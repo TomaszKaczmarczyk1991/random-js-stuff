@@ -105,6 +105,6 @@ function counter(){
 
 let c = counter();
 
-console.log(c());
-console.log(c());
-console.log(c());
+console.log(c()); // 0
+console.log(c()); // 1
+console.log(c()); // 2
