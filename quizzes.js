@@ -94,5 +94,17 @@ let b = {name: "Tomek"};
 console.log(a === b); // false
 
 // 27.03.2024
-
+// 1)
 [2,3,4].splice(1,1) // [3] 
+
+// 2)
+function counter(){
+    let count = 0;
+    return () => count++;
+}
+
+let c = counter();
+
+console.log(c());
+console.log(c());
+console.log(c());
