@@ -108,3 +108,12 @@ let c = counter();
 console.log(c()); // 0
 console.log(c()); // 1
 console.log(c()); // 2
+
+// 02.04.2024
+const a = [1,2,3];
+const b = [...a];
+
+b.push(4)
+
+console.log(a) // [1,2,3]
+  
