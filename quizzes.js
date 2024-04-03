@@ -1,4 +1,4 @@
-// 09.03.2024
+  09.03.2024
 // 1) 
 for(let i = 1; i < 5; i++){
     if(i === 3) continue;
@@ -117,3 +117,10 @@ b.push(4)
 
 console.log(a) // [1,2,3]
 console.log(b) // [1,2,3,4]  
+
+// 03.04.2024
+let a = 0;
+let b = 5;
+let result = a || b;
+
+console.log(result); // Outputs 5, because a is falsy, so it takes the value of b. 
