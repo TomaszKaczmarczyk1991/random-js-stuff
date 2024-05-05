@@ -1,4 +1,4 @@
-  09.03.2024
+// 09.03.2024
 // 1) 
 for(let i = 1; i < 5; i++){
     if(i === 3) continue;
@@ -123,4 +123,10 @@ let a = 0;
 let b = 5;
 let result = a || b;
 
-console.log(result); // Outputs 5, because a is falsy, so it takes the value of b. 
+console.log(result); // Outputs 5, because a is falsy, so it takes the value of b.
+
+// 05.05.2024
+const str = "hello world";
+const arr = str.split(" ");
+
+console.log(arr.join("-")); // hello-world
