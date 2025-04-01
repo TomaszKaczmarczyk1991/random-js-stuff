@@ -16,3 +16,9 @@ console.log(result); // anowan
 // 3) chatAt()
 result = text.charAt(0)
 console.log(result); // U
+
+// 4) localeCompare()
+
+const strings = ['arbuzy', 'pomarańczki', 'melony', 'mandarynki'];
+
+const sortedStrings = strings.sort((a, b) => a.localeCompare(b));
